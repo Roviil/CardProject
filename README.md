@@ -12,9 +12,9 @@
   - 게임 덱 관리
  
 ## 코드 설명
-₩₩₩
-val deck = GameDeck() // 새로운 카드 덱 생성
-val player = HumanPlayer() // 인간 플레이어 생성
-player.draw(deck) // 덱에서 카드 뽑기
-println(player.toHTML()) // 플레이어의 카드 표시
-₩₩₩
+
+    val deck = GameDeck() // 새로운 카드 덱 생성
+    val player = HumanPlayer() // 인간 플레이어 생성
+    player.draw(deck) // 덱에서 카드 뽑기
+    println(player.toHTML()) // 플레이어의 카드 표시
+
